@@ -1,8 +1,8 @@
-# Scripts de swap en LFJ para UltravioletaDAO
+# 💜Scripts de swap en LFJ para UltravioletaDAO💜
 
 Scripts desarrollados por Kadrez para la comunidad UltravioletaDAO, permitiendo interactuar con SDK TraderJoe V2.2 en la red de Avalanche.
 
-## Características
+## 📖Características
 
 - Swap de AVAX nativo a TOKEN
 - Swap de TOKEN a AVAX nativo
@@ -12,13 +12,13 @@ Scripts desarrollados por Kadrez para la comunidad UltravioletaDAO, permitiendo 
 - Configuración flexible a través de variables de entorno
 
 
-## Requisitos Previos
+## 📝Requisitos Previos
 
 - Node.js v16 o superior
 - npm o yarn
 - Una wallet con AVAX y tokens para swap
 
-## Instalación
+## ⚙️Instalación
 
 1. Clonar el repositorio:
 ```bash
@@ -78,7 +78,7 @@ npm run unwrap 1
 
 ```
 
-## Configuración del .env
+## ⚙️Configuración del .env
 
 El archivo .env permite configurar los siguientes parámetros:
 
@@ -105,7 +105,7 @@ El archivo .env permite configurar los siguientes parámetros:
 - `MAX_FEE_PER_GAS`: Tarifa máxima por gas
 - `MAX_PRIORITY_FEE_PER_GAS`: Tarifa de prioridad por gas
 
-## Seguridad
+## 🔐Seguridad
 
 - Nunca compartas tu clave privada
 - No subas el archivo .env a git
@@ -113,13 +113,13 @@ El archivo .env permite configurar los siguientes parámetros:
 - Verifica las direcciones de los contratos antes de interactuar
 
 
-## TODO
+## 📋TODO
 - Encriptar clave privada con contraseña para no almacenarla en texto plano en .env
 - Enviar AVAX/custom tokens a otras wallets
 - Agregar multiples wallets para swap en paralelo
 
-## Contribuciones
-Si deseas contribuir realiza fork al repositorio, agrega las funcionalidades o correciones que veas convenientes y envia tu pull request.
+## 🖥️Contribuciones
+Si deseas contribuir realiza fork al repositorio, agrega las funcionalidades o correcciones que veas convenientes y envia tu pull request.
 
-## Documentación SDK LFJ
+## 📚Documentación SDK LFJ
 https://docs.lfj.gg/
