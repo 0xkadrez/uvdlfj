@@ -1,0 +1,30 @@
+{
+  "name": "lfj-swap-script",
+  "version": "1.0.0",
+  "description": "Scripts para realizar swaps rápidos en LFJ entre AVAX/WAVAX y tokens personalizados",
+  "type": "module",
+  "scripts": {
+    "balance": "node src/check-balance.js",
+    "wrap": "node src/wrap-avax.js",
+    "unwrap": "node src/unwrap-avax.js",
+    "swap-token": "node src/swap-exact-in-avax-to-token.js",
+    "swap-avax": "node src/swap-exact-in-token-to-avax.js"
+  },
+  "keywords": [
+    "LFJ",
+    "Avalanche",
+    "AVAX",
+    "swap",
+    "DeFi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@traderjoe-xyz/sdk": "latest",
+    "@traderjoe-xyz/sdk-core": "latest",
+    "@traderjoe-xyz/sdk-v2": "latest",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2",
+    "viem": "^1.19.11"
+  }
+}
